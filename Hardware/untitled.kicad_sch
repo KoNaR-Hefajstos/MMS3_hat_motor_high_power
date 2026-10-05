@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "125b0d5a-ed68-48df-9395-126021e45b43")
+	(paper "A4")
+	(title_block
+		(title "MMS3_hat_motor_high_power")
+		(date "2026-08-25")
+		(rev "A")
+		(company "MiniModucard System")
+		(comment 1 "Wojciech Szafrański")
+		(comment 2 "Designed in poland")
+	)
+	(lib_symbols)
+)
