@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -492,6 +495,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -674,33 +678,30 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "/Power Connector/VIN_BRD": [
         "50V",
         "PWR"
       ],
+      "/User Area/Half H bridge/HS": [
+        "50V"
+      ],
+      "/User Area/Half H bridge1/HS": [
+        "50V"
+      ],
+      "/User Area/Half H bridge2/HS": [
+        "50V"
+      ],
+      "/User Area/Half H bridge3/HS": [
+        "50V"
+      ],
       "/User Area/VIN": [
         "PWR"
-      ],
-      "BRD_VIN": [
-        "50V "
-      ],
-      "Net-(D4-K)": [
-        "50V "
-      ],
-      "Net-(J8-Pin_1)": [
-        "50V "
-      ],
-      "U_reg": [
-        "50V "
       ],
       "VIN_CHAINBUS": [
         "50V",
         "PWR"
-      ],
-      "Vin": [
-        "50V "
       ]
     },
     "netclass_patterns": [
@@ -1256,7 +1257,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "F601,F1501,U102,U302-303,U401,U601-602,U701-702,U801-802,U901-902,U1001-1002,U1101,U1201,U1501,U1601,U1901,U2001-2002,U2101-2102,U2201-2202,U2301-2302,D401,D601-607,D701,D801,D901,D1001,D1101,D1501-1504,D1601-1604,D1901,#FLG401-402,#FLG601-602,#FLG1101,#FLG1501-1502,#FLG1601,#FLG1901,TH1401,TH1701,Q601,Q701-706,Q801-802,Q901-902,Q1001-1002,Q1601,Q2001-2002,Q2101-2102,Q2201-2202,Q2301-2302,L1601-1602,FB1101,FB1901,#PWR102,#PWR318-321,#PWR402-403,#PWR601-612,#PWR701-712,#PWR801-812,#PWR901-912,#PWR1001-1012,#PWR1101-1140,#PWR1301-1302,#PWR1401-1402,#PWR1501-1512,#PWR1601-1606,#PWR1701-1702,#PWR1901-1940,#PWR2001-2011,#PWR2101-2111,#PWR2201-2211,#PWR2301-2311,S1101-1104,S1901-1903,CN101,CN401,J601-603,J1101,J1301-1302,J1501-1502,J1601,J1901,R312,R601-606,R701-707,R801-807,R901-907,R1001-1007,R1101-1107,R1401,R1501-1506,R1601-1605,R1701,R1901-1907,R2001-2007,R2101-2107,R2201-2207,R2301-2307,TP1101-1102,TP1901-1902,X1101-1103,X1901-1902,C601-604,C701-708,C801-808,C901-908,C1001-1008,C1101-1115,C1401,C1501-1503,C1601-1605,C1901-1914,C2001-2005,C2101-2105,C2201-2205,C2301-2305",
+    "used_designators": "#FLG401-402,#FLG601-602,#FLG1101,#FLG1501-1502,#FLG1601,#FLG1901,#PWR102,#PWR318-321,#PWR401-403,#PWR601-613,#PWR701-714,#PWR801-814,#PWR901-914,#PWR1001-1014,#PWR1101-1140,#PWR1301-1302,#PWR1401-1402,#PWR1501-1512,#PWR1601-1606,#PWR1701-1702,#PWR1901-1940,#PWR2001-2011,#PWR2101-2111,#PWR2201-2211,#PWR2301-2311,C601-604,C701-708,C801-808,C901-908,C1001-1008,C1101-1115,C1401,C1501-1503,C1601-1606,C1901-1914,C2001-2005,C2101-2105,C2201-2205,C2301-2305,CN101,CN401,D401-402,D601-607,D701,D801,D901,D1001,D1101,D1301,D1501-1505,D1601-1604,D1901,F601,F1501,FB1101,FB1901,J601-603,J1101,J1301-1302,J1501-1502,J1601,J1901,L1601-1602,Q601,Q701-706,Q801-802,Q901-902,Q1001-1002,Q1601,Q2001-2002,Q2101-2102,Q2201-2202,Q2301-2302,R312,R401,R601-606,R701-709,R801-809,R901-909,R1001-1009,R1101-1107,R1301,R1401,R1501-1507,R1601-1605,R1701,R1901-1907,R2001-2007,R2101-2107,R2201-2207,R2301-2307,S1101-1104,S1901-1903,TH1401,TH1701,TP1101-1102,TP1901-1902,U102,U302-303,U401,U601-603,U701-702,U801-802,U901-902,U1001-1002,U1101,U1201,U1501,U1601,U1901,U2001-2002,U2101-2102,U2201-2202,U2301-2302,X1101-1103,X1901-1902",
     "variants": []
   },
   "sheets": [
