@@ -2885,17 +2885,6 @@
 		)
 		(uuid "ae3ce481-e4c5-4b8a-80c4-db0b857f09fc")
 	)
-	(text "ADD R IN SERIES TO LOGIC LINES\nSO YOU WONT FRY IT WHEN SHORTING\n+\nADD TVS DIODES"
-		(exclude_from_sim no)
-		(at 96.774 88.9 0)
-		(effects
-			(font
-				(size 1 1)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "be06af3d-be3a-4795-8826-65b859410528")
-	)
 	(text "Bldc"
 		(exclude_from_sim no)
 		(at 250.0914 54.6093 0)
