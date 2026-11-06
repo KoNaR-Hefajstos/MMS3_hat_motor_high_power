@@ -13,183 +13,6 @@
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -3000,18 +2823,6 @@
 		)
 		(uuid "e9262d8b-86ca-4d67-8452-9331120fae2e")
 	)
-	(text "C_POLAR is bulk"
-		(exclude_from_sim no)
-		(at 73.152 176.784 0)
-		(effects
-			(font
-				(size 1 1)
-				(italic yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "0f984b50-6b17-4199-9dac-041718f53490")
-	)
 	(text "Hierarchical Inputs"
 		(exclude_from_sim no)
 		(at 18.288 44.196 0)
@@ -3064,16 +2875,6 @@
 		)
 		(uuid "89350c0f-db4e-41fb-b9f8-7f89a970ead0")
 	)
-	(text "WHEN VIN < 12.69V SHORT DASDASD"
-		(exclude_from_sim no)
-		(at 93.726 151.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a90bf8d3-ec45-436c-9f4d-bf646825f7d4")
-	)
 	(text "Stepper"
 		(exclude_from_sim no)
 		(at 259.08 111.76 0)
@@ -3094,17 +2895,6 @@
 			)
 		)
 		(uuid "be06af3d-be3a-4795-8826-65b859410528")
-	)
-	(text "ADD SOME KIND OF THING\nTO SHORT FOR LOW VOLTAGE VBUS"
-		(exclude_from_sim no)
-		(at 96.52 144.526 0)
-		(effects
-			(font
-				(size 1 1)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d0ea17a5-d228-4abf-b0cd-c73a80afcfd4")
 	)
 	(text "Bldc"
 		(exclude_from_sim no)
@@ -3151,12 +2941,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ab9cb69-eb84-4ba8-b479-de0d279d2a79")
-	)
-	(junction
-		(at 57.15 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a981b69-358a-4de9-9146-2ebedddba59c")
 	)
 	(junction
 		(at 252.73 96.52)
@@ -3609,16 +3393,6 @@
 			(type default)
 		)
 		(uuid "30fc0a22-602e-4675-be7c-5120c69b4eee")
-	)
-	(wire
-		(pts
-			(xy 57.15 182.88) (xy 57.15 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3396cac7-2e2c-4471-b103-b527af111225")
 	)
 	(wire
 		(pts
@@ -4389,16 +4163,6 @@
 			(type default)
 		)
 		(uuid "f9c44ba8-1a24-430d-902e-ec8a07ea29e3")
-	)
-	(wire
-		(pts
-			(xy 57.15 156.21) (xy 57.15 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdce578d-f1e8-4a3e-895e-b5d70aae45dd")
 	)
 	(bus
 		(pts
@@ -5896,85 +5660,6 @@
 			(project "MMS3_hat_motor_high_power"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/caacb2e0-37e6-4033-888d-f7b8355d5d0a"
 					(reference "#PWR0607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f566906-3a2d-4627-bd95-b4b957171b0b")
-		(property "Reference" "#PWR0612"
-			(at 57.15 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4ff5450-e9a9-4b3f-8904-8473a05deb00")
-		)
-		(instances
-			(project "MMS3_hat_motor_high_power"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/caacb2e0-37e6-4033-888d-f7b8355d5d0a"
-					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -7858,88 +7543,6 @@
 			(project "MMS3_hat_motor_high_power"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/caacb2e0-37e6-4033-888d-f7b8355d5d0a"
 					(reference "R606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 57.15 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac5e7f69-6cd3-4ccb-85ad-937400b00eb2")
-		(property "Reference" "C601"
-			(at 60.96 169.2909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 60.96 171.8309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.1152 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 57.15 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5351172d-e6e4-45bb-bc6e-4ed266580c7c")
-		)
-		(pin "2"
-			(uuid "590a5c5e-1267-44e9-b6e5-073eec8fe92b")
-		)
-		(instances
-			(project "MMS3_hat_motor_high_power"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/caacb2e0-37e6-4033-888d-f7b8355d5d0a"
-					(reference "C601")
 					(unit 1)
 				)
 			)
