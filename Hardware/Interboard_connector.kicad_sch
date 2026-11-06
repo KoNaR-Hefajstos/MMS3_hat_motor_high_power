@@ -4099,7 +4099,7 @@
 			(justify left bottom)
 		)
 		(uuid "6f3899b3-38f8-42d4-8195-d8498e21b0ef")
-		(property "Netclass" "PWR"
+		(property "Klasy sieci" "PWR"
 			(at 228.0285 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)

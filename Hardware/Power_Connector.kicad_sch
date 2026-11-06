@@ -1857,7 +1857,7 @@
 			(justify left bottom)
 		)
 		(uuid "29176956-4c7e-4397-bc34-456d2b141a6f")
-		(property "Netclass" "50V"
+		(property "Klasy sieci" "50V"
 			(at 128.016 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,7 +1892,7 @@
 			(justify left bottom)
 		)
 		(uuid "35a344f6-591e-4125-9f72-bc1f32ed6059")
-		(property "Netclass" "PWR"
+		(property "Klasy sieci" "PWR"
 			(at 120.0785 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +1926,7 @@
 			(justify left bottom)
 		)
 		(uuid "ae9e5ea6-605f-41b0-bff4-16622c630d7f")
-		(property "Netclass" "50V"
+		(property "Klasy sieci" "50V"
 			(at 126.746 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)

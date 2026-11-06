@@ -5559,7 +5559,7 @@
 			(justify left bottom)
 		)
 		(uuid "8989db1e-79d2-485f-a564-aad779c7e468")
-		(property "Netclass" "50V"
+		(property "Klasy sieci" "50V"
 			(at 201.676 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)

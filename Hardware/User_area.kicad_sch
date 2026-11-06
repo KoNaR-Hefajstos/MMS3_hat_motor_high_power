@@ -5563,7 +5563,7 @@
 			(justify left bottom)
 		)
 		(uuid "163ce10c-da77-42b1-b7b0-c1b8fb411505")
-		(property "Netclass" "PWR"
+		(property "Klasy sieci" "PWR"
 			(at 50.2285 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
