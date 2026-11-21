@@ -9,7 +9,7 @@
 		(date "2026-08-25")
 		(rev "A")
 		(company "MiniModucard System")
-		(comment 1 "Wojciech Szafrański")
+		(comment 1 "Wojciech Szafrański, Maciej Chodowiec")
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols)
