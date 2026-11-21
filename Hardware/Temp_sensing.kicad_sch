@@ -1030,7 +1030,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 132.08 102.87 0)
+		(at 132.08 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1041,7 +1041,7 @@
 		(fields_autoplaced yes)
 		(uuid "96064687-d394-40a8-8c47-74073cf78028")
 		(property "Reference" "TH1401"
-			(at 134.62 101.9174 0)
+			(at 134.62 90.4874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1051,8 +1051,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 134.62 104.4574 0)
+		(property "Value" "NTC 10kΩ"
+			(at 134.62 93.0274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1062,8 +1062,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 101.6 0)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1073,8 +1073,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 132.08 101.6 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77131.pdf"
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1084,8 +1084,19 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 132.08 102.87 0)
+		(property "Description" "THERMISTOR NTC 10kΩ 3380K 0402"
+			(at 132.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77131"
+			(at 132.08 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1191,7 +1202,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 132.08 91.44 0)
+		(at 132.08 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1202,7 +1213,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea24ac9e-9aac-4dfb-909e-a71f6a9d7e31")
 		(property "Reference" "R1401"
-			(at 134.62 91.4399 0)
+			(at 134.62 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1213,7 +1224,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 132.08 91.44 90)
+			(at 132.08 102.87 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1223,7 +1234,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 130.302 91.44 90)
+			(at 130.302 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1234,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1245,7 +1256,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,7 +1267,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1278,7 @@
 			)
 		)
 		(property "Stock" "24372091"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,7 +1289,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1289,7 +1300,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1300,7 +1311,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,7 +1322,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1322,7 +1333,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1333,7 +1344,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1344,7 +1355,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1355,7 +1366,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1366,7 +1377,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1377,7 +1388,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1399,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1399,7 +1410,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +1421,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1432,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,7 +1443,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 132.08 91.44 0)
+			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

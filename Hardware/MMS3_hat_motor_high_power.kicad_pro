@@ -540,6 +540,18 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.13,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
@@ -549,7 +561,7 @@
         "microvia_drill": 0.1,
         "name": "CAN_120Ohm_diff",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.13,
         "tuning_profile": "",
@@ -567,7 +579,7 @@
         "microvia_drill": 0.1,
         "name": "ETHERNET_100Ohm_diff",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -583,7 +595,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 0, 194)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -601,7 +613,7 @@
         "microvia_drill": 0.1,
         "name": "PCIe_85Ohm_diff",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.23,
         "tuning_profile": "",
@@ -617,7 +629,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -633,7 +645,7 @@
         "microvia_drill": 0.1,
         "name": "SDIO_50Ohm_se",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(0, 132, 0)",
         "track_width": 2.8047,
         "tuning_profile": "",
@@ -649,7 +661,7 @@
         "microvia_drill": 0.1,
         "name": "Strobe_100Ohm",
         "pcb_color": "rgb(255, 2, 244)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -666,7 +678,7 @@
         "microvia_drill": 0.1,
         "name": "USB_90Ohm_diff",
         "pcb_color": "rgb(204, 102, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -1093,6 +1105,228 @@
           "label": "Rectified Current",
           "name": "Rectified Current",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Luminous Intensity",
+          "name": "Luminous Intensity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dominant Wavelength",
+          "name": "Dominant Wavelength",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mechanical Life",
+          "name": "Mechanical Life",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Emitted Color",
+          "name": "Emitted Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Equivalent Series Resistance (Esr)",
+          "name": "Equivalent Series Resistance (Esr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Style",
+          "name": "Pin Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Dissipation",
+          "name": "Power Dissipation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Normal Temperature Frequency Tolerance",
+          "name": "Normal Temperature Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Equivalent Series Resistance(Esr)",
+          "name": "Equivalent Series Resistance(Esr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Current",
+          "name": "Contact Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Current",
+          "name": "Forward Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Crystal Type",
+          "name": "Crystal Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage (VF)",
+          "name": "Forward Voltage (VF)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Resistance",
+          "name": "DC Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Style",
+          "name": "Mounting Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Force",
+          "name": "Operating Force",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Stability",
+          "name": "Frequency Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Tolerance",
+          "name": "Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance @ Frequency",
+          "name": "Impedance @ Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Strike Gundam",
+          "name": "Strike Gundam",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Insulation Resistance",
+          "name": "Insulation Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Height",
+          "name": "Switch Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Length",
+          "name": "Switch Length",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Width",
+          "name": "Switch Width",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator/Cap Color",
+          "name": "Actuator/Cap Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuit",
+          "name": "Circuit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Viewing Angle",
+          "name": "Viewing Angle",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Lens Color",
+          "name": "Lens Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating (Dc)",
+          "name": "Voltage Rating (Dc)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "With Lamp",
+          "name": "With Lamp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Capacitance",
+          "name": "Load Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator Style",
+          "name": "Actuator Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuits",
+          "name": "Circuits",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1257,7 +1491,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "#PWR1301,#PWR1303-1307,#PWR1506-1507,#PWR1509-1510,C1502,D1301-1305,D1506-1507,R1302-1304,R1505-1508",
+    "used_designators": "#FLG204,#FLG1601,#PWR232,#PWR1301,#PWR1303-1307,#PWR1506-1507,#PWR1509-1510,C1502,D1301-1305,D1506-1507,R1302-1304,R1505-1508",
     "variants": []
   },
   "sheets": [

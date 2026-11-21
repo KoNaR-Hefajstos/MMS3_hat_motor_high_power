@@ -1958,6 +1958,18 @@
 		(uuid "09916b8f-de64-4524-aa07-25bb9862d990")
 	)
 	(rectangle
+		(start 224.79 27.94)
+		(end 283.21 92.71)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4889745a-debc-4b29-ac93-a4459dc7d619")
+	)
+	(rectangle
 		(start 224.79 92.71)
 		(end 283.21 154.94)
 		(stroke
@@ -2334,6 +2346,16 @@
 		)
 		(uuid "238c41ee-844b-4db9-81f0-3e51c3526469")
 	)
+	(bus
+		(pts
+			(xy 247.65 57.15) (xy 254 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a43c55-4c48-449d-bc38-ba596d18a669")
+	)
 	(wire
 		(pts
 			(xy 17.78 113.03) (xy 17.78 116.84)
@@ -2674,6 +2696,16 @@
 		)
 		(uuid "a72f009c-592c-4d4d-b826-ef482b555e77")
 	)
+	(bus
+		(pts
+			(xy 254 57.15) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c9f538-f8e6-4303-a7e4-06be6d65557b")
+	)
 	(wire
 		(pts
 			(xy 38.1 64.77) (xy 38.1 60.96)
@@ -2843,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "f66f960d-4f9d-4f7b-8185-0e16b5843db3")
+	)
+	(bus
+		(pts
+			(xy 254 69.85) (xy 260.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3a5a91-f096-4545-aafd-b6f7ee50042a")
 	)
 	(bus
 		(pts
@@ -3056,6 +3098,17 @@
 		)
 		(uuid "37a30bb9-d518-4a5d-bef9-888d3943a922")
 	)
+	(hierarchical_label "Chainbus{UART}"
+		(shape bidirectional)
+		(at 247.65 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a97171f-37fe-48d0-b1af-cf345dd1b784")
+	)
 	(hierarchical_label "Chainbus{SPI}"
 		(shape bidirectional)
 		(at 66.04 106.68 0)
@@ -3121,6 +3174,17 @@
 			(justify left)
 		)
 		(uuid "fa79f112-ec2e-4eaa-b1a4-0314c5fb59bc")
+	)
+	(hierarchical_label "Chainbus_In{UART}"
+		(shape bidirectional)
+		(at 260.35 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffdc38a5-f796-4727-80df-9ea6cd2e3541")
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")

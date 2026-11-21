@@ -13,6 +13,160 @@
 		(comment 2 "Designed in poland")
 	)
 	(lib_symbols
+		(symbol "Diode:SMAJ70A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ70A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 70.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ70A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ70A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Diodes:General,M7"
 			(pin_numbers
 				(hide yes)
@@ -1507,6 +1661,12 @@
 		)
 	)
 	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01b4b876-0d8e-411c-b307-9a3bc7cb9e73")
+	)
+	(junction
 		(at 128.27 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1529,6 +1689,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49730e61-0797-4f21-93ed-0a9b070e6974")
+	)
+	(junction
+		(at 119.38 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0416153-d910-4ec9-8575-8bd9e9641f14")
 	)
 	(junction
 		(at 97.79 93.98)
@@ -1636,6 +1802,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31caa2e9-13c1-4c01-a602-eee4db99e05c")
+	)
+	(wire
+		(pts
+			(xy 115.57 105.41) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5a0d3f-ce0d-43e5-9426-bc8b05f91ada")
+	)
+	(wire
+		(pts
 			(xy 67.31 113.03) (xy 67.31 106.68)
 		)
 		(stroke
@@ -1666,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 146.05) (xy 110.49 146.05)
+			(xy 128.27 146.05) (xy 119.38 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1736,6 +1922,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 146.05) (xy 110.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94ca5ec-a487-4162-8d5f-e45174aa15bd")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9e861c-7989-430f-8def-a4b2dde2de8d")
+	)
+	(wire
+		(pts
 			(xy 135.89 146.05) (xy 148.59 146.05)
 		)
 		(stroke
@@ -1746,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 93.98) (xy 119.38 93.98)
+			(xy 97.79 93.98) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1783,6 +1989,16 @@
 			(type default)
 		)
 		(uuid "e1c94dd5-ff5d-4e8e-a67e-7ceeda4dba56")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09ac787-4fa1-4e40-b36d-1cb670330d2b")
 	)
 	(wire
 		(pts
@@ -1937,8 +2153,32 @@
 				(justify left)
 			)
 		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 119.38 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e32b7986-a612-4950-ab5f-32a5e3492a8f")
+		(property "Netclass" "PWR"
+			(at 120.0785 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Component Class" ""
-			(at -48.26 27.94 0)
+			(at -154.94 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,6 +3181,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d47a9cc-2188-4ae6-a8d2-a080214e8ad4")
+		(property "Reference" "#PWR0404"
+			(at 115.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93a6cfa2-5d68-4fd6-9fe7-9e39f3d965b5")
+		)
+		(instances
+			(project "MMS3_hat_motor_high_power"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,27kΩ")
 		(at 129.54 101.6 0)
 		(unit 1)
@@ -3203,6 +3521,88 @@
 			(project "MMS3_hat_motor_high_power"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
 					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ70A")
+		(at 115.57 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c2405e-3dd5-4dc6-86c9-df6f494dee12")
+		(property "Reference" "D403"
+			(at 118.11 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ70A"
+			(at 118.11 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 110.49 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 70.0Vr, SMA(DO-214AC)"
+			(at 115.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6deb9327-b776-4641-bba4-fc85f247dd4e")
+		)
+		(pin "2"
+			(uuid "a37fd57c-97eb-4487-9a13-71907cb84e4d")
+		)
+		(instances
+			(project "MMS3_hat_motor_high_power"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
+					(reference "D403")
 					(unit 1)
 				)
 			)
